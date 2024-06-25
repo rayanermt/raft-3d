@@ -1,0 +1,58 @@
+.about {
+    background-color: var(--silver);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2em;
+
+    span {
+        color: var(--primary);
+    }
+}
+
+.about__hr {
+    border: 0.5px solid lightgray;
+}
+
+.about__figure {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.about__text {
+    padding: 2rem 0;
+}
+
+.about__body {
+    color: var(--black);
+    margin: 1rem 0;
+}
+
+.about__contact-info {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 1.3rem 0;
+    gap: 0.5em;
+    
+}
+
+.about-icon {
+    height: 1em;
+}
+
+@media screen and (min-width: 1000px) {
+    .about__hr {
+        margin: 2em 0;
+    }
+
+    .about {
+        flex-wrap: nowrap;
+    }
+
+    .about__figure {
+        height: 100%;
+    }
+}

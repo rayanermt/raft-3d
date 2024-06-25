@@ -4,7 +4,7 @@ export default function OurClients () {
     return(
         <section className="ourClients">
             <h2 className="heading_2">Nossos Clientes</h2>
-            <p className="body">Nossos serviços de prototipagem atendem empresas de todos os setores</p>
+            <p className="heading_4">Nossos serviços de prototipagem atendem empresas de todos os setores</p>
             <div className="ourClients__logos-container">
                 <a href="https://mti.work/">
                     <img 

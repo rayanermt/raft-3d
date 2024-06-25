@@ -10,7 +10,7 @@ export default function Process() {
     return (
         <section className="process">
             <h2 className="heading_2">Como funciona a prototipagem?</h2>
-            <p className="body">Conheça o jeito Raft de prototipar</p>
+            <p className="heading_4">Conheça o jeito Raft de prototipar</p>
 
             <div className="process__cards-container">
                 <div className="process__card">
