@@ -1,30 +1,93 @@
-.services {
-    background-color: var(--tint_1);
-}
 
-.services__header {
-    color: white;
-}
-
-.services__cards-container {
+.services__grid {
     display: flex;
-    gap: 1em;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.services__subtitle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20%;
+    align-items: center;
+    margin: 1.5em 0;
+}
+
+.service__body {
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.services__link {
+    color: var(--secondary);
+    text-align: center;
+    line-height: 120%;
+
+    span {
+        display: inline;
+        font-weight: 600;
+    }
 }
 
 .service__card {
-    background-color: white;
+    background-color: var(--silver);
     color: var(--primary);
-    padding: 1em 0.5em;
+    padding: 1rem 1.3rem;
     border-radius: 6px;
+    max-width: 70vw;
+    margin: 0 auto;
+}
+
+.service__card-header {
     display: flex;
-    gap: 1em;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+
+    img {
+        height: 1.5rem;
+    }
 }
 
 .service__button {
     font-family: var(--font-main);
-    background-color: var(--silver);
-    color: var(--primary);
+    background-color: var(--tint_1);
+    color: var(--silver);
     padding: 0.8em;
     border: none;
     border-radius: 6px;
+    margin: 1rem 0;
+}
+
+.service__button:hover {
+    background-color: var(--tint_2);
+}
+
+.service__hidden {
+    display: none;
+}
+
+.service__description {
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 1000px) {
+    .services__grid,
+    .services__subtitle {
+        flex-wrap: nowrap;
+    }
+    
+    .service__body {
+        margin: 0;
+        text-align: left;
+    }
+    .services__link {
+        text-align: right;
+    }
+
+    .service__card {
+        min-width: 10vw;
+    }
 }

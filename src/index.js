@@ -17,7 +17,6 @@ root.render(
     <App />
     <Hero />
     <Services />
-    <Process />
     <OurClients />
     <AboutUs />
     

@@ -14,11 +14,13 @@
   --secondary: #312638;
 
   --tint_1:#7e73df;
+  --tint_2:#9389eb;
   
 }
 
 .body,
 .heading_4 {
+  display: block;
   color: var(--grey);
   font-size: 0.9rem;
   line-height: 130%;
@@ -32,9 +34,12 @@ a:hover {
   color: var(--tint_1);
 }
 
+button:hover {
+  cursor: pointer;
+}
 
 section {
-  padding: 1em 2em 0 2em;
+  padding: 1em 2em;
   font-family: var(--font-main);
 }
 
@@ -61,7 +66,6 @@ section {
 
 @media screen and (min-width: 1000px) {
     section {
-      padding: 0 15%;
-      margin: 4rem 0;
+      padding: 3% 15%;
     }
 }
