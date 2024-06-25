@@ -25,28 +25,29 @@
 }
 
 section {
-    padding: 1em 2em;
+    padding: 1em 2em 0 2em;
     font-family: var(--font-main);
 }
 
 .heading_2 {
   color: var(--dark_grey);
-  font-weight: 600;
-  font-size: 1.5em;
+  font-weight: 800;
+  font-size: 1.5rem;
   text-align: center;
   margin: 0.3em 0;
 }
 
 .heading_3 {
-  color: var(--grey);
-  font-size: 1em;
+  color: var(--dark_grey);
+  font-weight: 600;
+  font-size: 1.3rem;
   line-height: 110%;
   text-align: center;
 }
 
 .body {
   color: var(--grey);
-  font-size: 1em;
+  font-size: 0.9rem;
   line-height: 110%;
   text-align: center;
 }
@@ -54,6 +55,6 @@ section {
 
 @media screen and (min-width: 1000px) {
     section {
-      padding: 3em 4em;
+      padding: 3em 4em 0 4em;
     }
 }

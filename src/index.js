@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 import Hero from './components/Hero/index.js';
 import OurClients from './components/OurClients/index.js';
+import Process from './components/Process/index.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <App />
     <Hero />
     <OurClients />
+    <Process />
     
   </React.StrictMode>
 );

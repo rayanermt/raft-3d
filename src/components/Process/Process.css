@@ -1,0 +1,49 @@
+.process__cards-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 0.8em;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.process__card {
+    border-radius: 6px;
+    padding: 1rem 1.2rem;
+}
+
+.process__card-header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: left;
+}
+
+.process__body {
+    margin: 1rem 0;
+    text-align: left;
+}
+
+.process__card-figure {
+    fill: var(--primary);
+    height: 2em;
+    width: auto;
+    display: block;
+}
+
+/* Vertical Line */
+.vl {   
+    width: 100%;
+    border-bottom: 2px solid var(--silver);
+}
+
+@media screen and (min-width: 1000px) {
+    .process__cards-container {
+        flex-wrap: nowrap;
+    }
+
+    .vl {   
+        width: 0;
+        border-left: 2px solid var(--silver);
+    }
+}
