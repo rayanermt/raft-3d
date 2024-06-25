@@ -1,0 +1,44 @@
+.hero {
+    font-family: var(--font-main);
+    background-color: var(--silver);
+    padding: 10% 15%;
+
+    h2, 
+    .hero-text-emphasis {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    h2 {
+        color: var(--dark_grey);
+    }
+
+    .hero-text-emphasis {
+        color:var(--primary);
+    }
+
+    h3 {
+        color: var(--grey);
+        font-size: 16px;
+        line-height: 20px;
+        margin: 1.3em 0;
+    }
+
+    button {
+        font-family: var(--font-main);
+        font-size: 12px;
+        background-color: var(--primary);
+        border-radius: 5px;
+        color: white;
+        padding: 1em 2em;
+        border: none;
+    }
+
+    img {
+        height: 60vw;
+        width: auto;
+        margin: 1.5em auto;
+        display: block;
+    }
+}
