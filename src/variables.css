@@ -3,6 +3,13 @@
 :root {
   /* Typography */
   --font-main: 'Inter', sans-serif;
+  /* heading2: {
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0.5em 0;
+
+  }*/
 
   /* Colors*/
   --silver: #F5F7FA;
@@ -14,4 +21,39 @@
   --secondary: #312638;
 
   --tint_1:#7e73df;
+  
+}
+
+section {
+    padding: 1em 2em;
+    font-family: var(--font-main);
+}
+
+.heading_2 {
+  color: var(--dark_grey);
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0.3em 0;
+}
+
+.heading_3 {
+  color: var(--grey);
+  font-size: 1em;
+  line-height: 110%;
+  text-align: center;
+}
+
+.body {
+  color: var(--grey);
+  font-size: 1em;
+  line-height: 110%;
+  text-align: center;
+}
+
+
+@media screen and (min-width: 1000px) {
+    section {
+      padding: 3em 4em;
+    }
 }

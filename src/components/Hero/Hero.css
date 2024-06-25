@@ -1,12 +1,12 @@
 .hero {
     font-family: var(--font-main);
     background-color: var(--silver);
-    padding: 2em 4em;
     display: flex;
     gap: 2em;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 2em 4em;
 }
 
 .hero__title, 
@@ -56,8 +56,8 @@
 @media screen and (min-width: 980px) {
     .hero {
         flex-wrap: nowrap;
-        padding: 5em 7em;
         gap: 4em;
+        padding: 5em 7em;
     }
 
     .hero__text-container {

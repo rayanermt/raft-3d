@@ -6,12 +6,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import Hero from './components/Hero/index.js';
+import OurClients from './components/OurClients/index.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
     <Hero />
+    <OurClients />
     
   </React.StrictMode>
 );
