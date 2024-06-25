@@ -1,44 +1,70 @@
 .hero {
     font-family: var(--font-main);
     background-color: var(--silver);
-    padding: 10% 15%;
+    padding: 2em 4em;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
-    h2, 
-    .hero-text-emphasis {
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 30px;
+.hero__title, 
+.hero-text-emphasis {
+    font-weight: 700;
+    font-size: 2.2em;
+    line-height: 105%;
+}
+
+.hero__title {
+    color: var(--dark_grey);
+}
+
+.hero__text-emphasis {
+    color:var(--primary);
+}
+
+.hero__text {
+    color: var(--grey);
+    font-size: 1rem;
+    line-height: 105%;
+    margin: 1.3rem 0;
+}
+
+.hero__button {
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+    background-color: var(--primary);
+    border-radius: 5px;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+}
+
+.hero__button:hover {
+    background-color: var(--tint_1);
+    cursor: pointer;
+}
+
+.hero__figure {
+    max-width: 60vw;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+
+@media screen and (min-width: 980px) {
+    .hero {
+        flex-wrap: nowrap;
+        padding: 5em 7em;
+        gap: 4em;
     }
 
-    h2 {
-        color: var(--dark_grey);
+    .hero__text-container {
+        width: 50%;
     }
 
-    .hero-text-emphasis {
-        color:var(--primary);
-    }
-
-    h3 {
-        color: var(--grey);
-        font-size: 16px;
-        line-height: 20px;
-        margin: 1.3em 0;
-    }
-
-    button {
-        font-family: var(--font-main);
-        font-size: 12px;
-        background-color: var(--primary);
-        border-radius: 5px;
-        color: white;
-        padding: 1em 2em;
-        border: none;
-    }
-
-    img {
-        height: 60vw;
-        width: auto;
-        margin: 1.5em auto;
-        display: block;
+    .hero__figure {
+        max-width: 35vw;
     }
 }
