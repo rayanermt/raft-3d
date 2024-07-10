@@ -18,7 +18,7 @@ root.render(
   <React.StrictMode>
     <App />
     <Hero />
-    <Services />
+    <TabSwitcher/>
     <Process />
     <OurClients />
     <AboutUs />
