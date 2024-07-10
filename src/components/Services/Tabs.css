@@ -1,0 +1,13 @@
+.services li {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+li.active {
+    border-bottom: 1px var(--primary) solid;
+}
+
+.tab-content {
+    display: flex;
+    gap: 2rem;
+}
