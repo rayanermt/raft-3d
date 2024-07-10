@@ -1,0 +1,10 @@
+.content__container {
+    background-image: url("https://imagens.3dlab.com.br/wp-content/uploads/2023/05/Ender-3-Neo-3-1.png");
+    background-position-y: center;
+    box-sizing: border-box;
+    margin: 0.5rem 0.5rem;
+    background-color: var(--secondary);
+    padding: 1.5rem;
+    border-radius: 7px;
+    height: 30vw;
+}

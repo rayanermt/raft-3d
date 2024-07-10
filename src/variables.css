@@ -64,6 +64,10 @@ section {
   font-weight: 500;
 }
 
+.hidden {
+  display: none;
+}
+
 @media screen and (min-width: 1000px) {
     section {
       padding: 3% 15%;

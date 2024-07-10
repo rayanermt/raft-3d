@@ -39,6 +39,9 @@
     margin: 0 auto;
 }
 
+.service__card:hover {
+    border-bottom: 2px solid var(--tint_2);
+}
 .service__card-header {
     display: flex;
     justify-content: space-between;
